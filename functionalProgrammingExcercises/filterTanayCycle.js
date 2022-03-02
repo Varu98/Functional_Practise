@@ -19,8 +19,8 @@ const family = [
 
 //   Your output should be: ['Tanay', 'Tanvi']
 
-const findPersonWithCycle = (arr) => arr.haveCycle === true;
+const findPersonWithCycle = (person) => person.haveCycle === true;
 
-const output = family.filter(findPersonWithCycle).map((e) => e.name);
+const output = family.filter(findPersonWithCycle).map((person) => person.name);
 
 output;
