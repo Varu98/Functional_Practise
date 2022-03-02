@@ -21,6 +21,6 @@ const family = [
 
 const findPersonWithCycle = (arr) => arr.haveCycle === true;
 
-const output = family.filter(findPersonWithCycle);
+const output = family.filter(findPersonWithCycle).map((e) => e.name);
 
-output.map((e) => e.name);
+output;
